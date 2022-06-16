@@ -23,6 +23,7 @@ import Schedule from "./components/Pages/StudentPages/Schedule"
 import SelectFriend from "./components/Pages/StudentPages/SelectFriend"
 import StudentNewplans from "./components/Pages/StudentPages/Plans/StudentNewplans"
 import FeedbackAdvisor from "./components/Pages/StudentPages/FeedbackAdvisor"
+import Profile from "./components/Pages/StudentPages/MyNetwork/Profile"
 // Advisor pages
 import NewPlan from "./components/Pages/AdvisorPages/Plan/NewPlan"
 import PhaseOne from "./components/Pages/AdvisorPages/Plan/PhaseOne"
@@ -56,7 +57,7 @@ class App extends Component {
                         <Route path="/SelectFriend" element={<SelectFriend />} />
                         <Route path="/StudentNewplans" element={<StudentNewplans />} />
                         <Route path="/FeedbackAdvisor" element={<FeedbackAdvisor />} />
-
+                        <Route path="/Profile" element={<Profile />} />
 
                         {/* Advisor Routes */}
                         <Route path="/advisor/dashboard" element={<AdvisorDashboard />} />
